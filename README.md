@@ -5,7 +5,7 @@ Authors: Manuel Parmiggiani (Student ID S4701853), Giacomo Garbarino (Student ID
 
 The aim of this project is to define the architecture and a demo implementation of a SmartGarden environment.
 
-The scripts contained in this repository can be used to simulate the typical execution we would expect to observe in a real SmartGarden: real-time data is collected by ad-hoc sensors and is sent to a local server through MQTT, then all of the informations have to be sent to a central DB in order to be available for data visualization and analysis tasks.
+The scripts contained in this repository can be used to simulate the typical execution we would expect to observe in a real SmartGarden: real-time data is collected by ad-hoc sensors and is sent to a local server through MQTT, then all of the informations have to be forwarded to a central DB in order to be available for data visualization and analysis tasks.
 
 Each Garden has one MQTT server, one MQTT subscriber and at least two sensors.
 Each Garden has its own unique topic and sensors from that Garden run scripts that were set to send data to that specific topic only.
