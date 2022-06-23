@@ -1,5 +1,6 @@
 # IOT_Project_2022
 Final project for the Internet Of Things course, 2022 edition, University of Genoa (Italy)
+
 Authors: Manuel Parmiggiani (Student ID S4701853), Giacomo Garbarino (Student ID S4545532)
 
 The aim of this project is to define the architecture and a demo implementation of a SmartGarden environment.
