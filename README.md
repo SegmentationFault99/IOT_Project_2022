@@ -9,7 +9,7 @@ The scripts contained in this repository can be used to simulate the typical exe
 
 Each Garden has one MQTT server, one MQTT subscriber and at least two sensors.
 Each Garden has its own unique topic and sensors from that Garden run scripts that were set to send data to that specific topic only.
-Messages sent from sensors to the server are cached by the MQTT subscriber, which proceeds to write them on a DB (NB: we simulated the hypothetical DB table with a txt file).
+Messages sent from sensors to the server are catched by the MQTT subscriber, which proceeds to write them on a DB (NB: we simulated the hypothetical DB table with a txt file).
 
 
 
